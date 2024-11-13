@@ -1,8 +1,8 @@
-import express from 'express'; // Using import for express
-import mongoose from 'mongoose'; // Using import for mongoose
-import bcrypt from 'bcryptjs'; // Using import for bcrypt
-import jwt from 'jsonwebtoken'; // (Although JWT isn't used here, keeping for future use)
-import UserModel from './models/userModel.js'; // Ensure the correct path to userModel is used
+import express from 'express'; 
+import mongoose from 'mongoose'; 
+import bcrypt from 'bcryptjs'; 
+import jwt from 'jsonwebtoken'; 
+import UserModel from './models/userModel.js'; 
 import foodModel from './models/foodModel.js';
 import verifytoken from './verifyToken.js';
 import trackingModel from './models/trackingModel.js';

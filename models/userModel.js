@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'; // Keep this as import
+import mongoose from 'mongoose'; 
 
 // Define a schema 
 const userSchema = new mongoose.Schema({
@@ -11,4 +11,4 @@ const userSchema = new mongoose.Schema({
 // Model
 const UserModel = mongoose.model('user', userSchema);
 
-export default UserModel; // Use export default for ES Modules
+export default UserModel; 
